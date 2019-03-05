@@ -132,7 +132,12 @@ module.exports = {
   //   `@company/project`
   //   `project#1.0.1`
   plugins: [
-        "hyper-native", "hyper-afterglow", "hyperpower", "hyper-search", "hypercwd"
+        "hyper-native", "hyper-afterglow", "hyperpower", "hyper-search", "hypercwd",
+    "hyper-tabs-enhanced",
+    "hyperterm-atom-dark",
+    "hypercwd",
+    "hyperterm-paste",
+    "hyper-statusline"
 ],
 
   // in development, you can create a directory under
