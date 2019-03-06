@@ -12,7 +12,7 @@ module.exports = {
     fontSize: 12,
 
     // font family with optional fallbacks
-    fontFamily: '"Ubuntu Mono derivative Powerline", "DejaVu Sans Mono for Powerline", Consolas, Lucida Console, monospace',
+    fontFamily: '"FuraCode Nerd Font Mono Regular", "Fura Code Regular Nerd Font Complete", "Ubuntu Mono derivative Powerline", "DejaVu Sans Mono for Powerline", Consolas, Lucida Console, monospace',
     // fontFamily: 'Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
 
     // default font weight: 'normal' or 'bold'
@@ -142,7 +142,7 @@ module.exports = {
   // in development, you can create a directory under
   // `~/.hyper_plugins/local/` and include it here
   // to load it and avoid it being `npm install`ed
-  localPlugins: [],
+  localPlugins: ["windows_bash"],
 
   keymaps: {
     // Example
